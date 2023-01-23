@@ -96,4 +96,4 @@ class Statement:
             if transfer_amount > 0.0:
                 self.income = self.income + transfer_amount
             else:
-                self.withdrew = self.withdrew + transfer.
+                self.withdrew = self.withdrew + transfer.amount
